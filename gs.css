@@ -37,3 +37,68 @@ font-size: 17px;
 color:brown;
 font-size: 17px;
 }
+table ,td,th{
+    border-style:solid;
+    color: darkblue;
+    border-color: black;
+    text-align: justify;
+}
+tr:nth-child(even) {
+    background-color:lightblue;
+  }
+table{
+    border-collapse: collapse;
+    margin: 20px 30px 50px 75px; 
+}
+th{
+    padding:2px 4px 6px 8px;
+}
+td{
+    padding: 2px 4px 6px 8px;
+}
+.DELANE:hover{
+    color:transparent;
+    text-shadow: 2px 2px 4px black;
+    font-size:23px;
+    border: 2px solid yellowgreen;
+    border-radius: 12px;
+    padding: 10px;
+    border-width: thick;
+    width:200px;
+    height: 20px;
+
+}
+.JOYCE:hover{
+    color:transparent;
+    text-shadow: 2px 2px 4px black;
+    font-size:23px;
+    border: 2px solid yellowgreen;
+    border-radius: 12px;
+    padding: 10px;
+    border-width: thick;
+    width:150px;
+    height: 20px;
+}
+.SERGEANT:hover{
+    color:transparent;
+    text-shadow: 2px 2px 4px black;
+    font-size:23px;
+    border: 2px solid yellowgreen;
+    border-radius: 12px;
+    padding: 10px;
+    border-width: thick;
+    width:150px;
+    height: 20px;
+}
+.DELANE{
+    color:mediumblue;
+    font-size: 17px;
+}
+.JOYCE{
+    color:green;
+    font-size: 17px;
+}
+.SERGEANT{
+    font-size: 17px;
+    color:blueviolet;
+}
