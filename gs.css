@@ -12,30 +12,32 @@
 .direction:hover{
     background-color: CadetBlue ;
     color:AliceBlue;
+    text-shadow: 6px 2px darkmagenta;
+    height: 30px;
 }
 .name_DELANE{
     color:mediumblue;
-    font-size: 17px;
+    font-weight: bold;
 }
 .name_QUIRKE{
     color:rgb(7, 105, 105);
-    font-size: 17px;
+    font-weight: bold;
 }
 .name_JOYCE{
     color:blueviolet;
-    font-size: 17px;
+    font-weight: bold;
 }
 .name_SERGEANT{
  color:dodgerblue;
- font-size: 17px;
+ font-weight: bold;
 }
 .name_HYACINTH{
 color:rgb(177, 104, 9);
-font-size: 17px;
+font-weight: bold;
 }
 .name_FARDY{
 color:brown;
-font-size: 17px;
+font-weight: bold;
 }
 table ,td,th{
     border-style:solid;
@@ -92,13 +94,13 @@ td{
 }
 .DELANE{
     color:mediumblue;
-    font-size: 17px;
+    font-weight: bold;
 }
 .JOYCE{
     color:green;
-    font-size: 17px;
+    font-weight: bold;
 }
 .SERGEANT{
     font-size: 17px;
-    color:blueviolet;
+    font-weight: bold;
 }
