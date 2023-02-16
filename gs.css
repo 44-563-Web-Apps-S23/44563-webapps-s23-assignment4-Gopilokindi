@@ -9,35 +9,61 @@
     color: black; 
     background-color: lightgray;
 }
+.name{
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+}
 .direction:hover{
     background-color: CadetBlue ;
     color:AliceBlue;
     text-shadow: 6px 2px darkmagenta;
     height: 30px;
 }
-.name_DELANE{
-    color:mediumblue;
-    font-weight: bold;
-}
-.name_QUIRKE{
+.QUIRKE{
     color:rgb(7, 105, 105);
     font-weight: bold;
 }
-.name_JOYCE{
-    color:blueviolet;
-    font-weight: bold;
-}
-.name_SERGEANT{
- color:dodgerblue;
- font-weight: bold;
-}
-.name_HYACINTH{
+.HYACINTH{
 color:rgb(177, 104, 9);
 font-weight: bold;
 }
-.name_FARDY{
-color:brown;
-font-weight: bold;
+.FARDY:hover{
+    color:transparent;
+    text-shadow: 2px 2px 4px black;
+    font-size:23px;
+    border: 2px solid yellowgreen;
+    border-radius: 12px;
+    padding: 10px;
+    border-width: thick;
+    width:150px;
+    height: 20px;
+}
+.FARDY{
+    color:brown;
+    font-weight: bold;
+    }
+.QUIRKE:hover{
+    color:transparent;
+    text-shadow: 2px 2px 4px black;
+    font-size:23px;
+    border: 2px solid yellowgreen;
+    border-radius: 12px;
+    padding: 10px;
+    border-width: thick;
+    width:150px;
+    height: 20px;
+}
+.HYACINTH:hover{
+    color:transparent;
+    text-shadow: 2px 2px 4px black;
+    font-size:23px;
+    border: 2px solid yellowgreen;
+    border-radius: 12px;
+    padding: 10px;
+    border-width: thick;
+    width:150px;
+    height: 20px;
 }
 table ,td,th{
     border-style:solid;
@@ -101,6 +127,37 @@ td{
     font-weight: bold;
 }
 .SERGEANT{
-    font-size: 17px;
+    color:darkkhaki;
     font-weight: bold;
 }
+ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: black;
+  }
+  
+  .active {
+    background-color:royalblue;
+  }
+  body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
